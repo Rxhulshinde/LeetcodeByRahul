@@ -2,7 +2,7 @@
 // both variables j and k will have the same starting value that is 1 and we will increment the second variable j.
 // we will increment j at every step in the loop
 // if we find the j'th element different than k'th element
-// we will change the value of k'th element with j'th
+// we will change the value of k'th element with j'th 
 
 var removeDuplicates = function(nums) {
 
