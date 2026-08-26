@@ -1,5 +1,6 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+
         count = 0
         leng = len(flowerbed)
         for i in range(leng):
@@ -15,5 +16,3 @@ class Solution:
                 if count>=n:
                     return True
         return count>=n
-
-
